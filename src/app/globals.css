@@ -1,5 +1,38 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Bold.ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-SemiBold.ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Thin.ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
